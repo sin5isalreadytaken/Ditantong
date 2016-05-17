@@ -113,8 +113,8 @@ public class tendency extends Activity{
 
         com.example.ditantong.ChartView lineView1 = new com.example.ditantong.ChartView(this);
         com.example.ditantong.ChartView lineView2 = new com.example.ditantong.ChartView(this);
-        lineView1.setInfo(date7, x7, point7, "日走势");
-        lineView2.setInfo(date30, x30, point30, "月走势");
+        lineView1.setInfo(date7, x7, point7, "日走势图");
+        lineView2.setInfo(date30, x30, point30, "月走势图");
         layout1.addView(lineView1);
         layout2.addView(lineView2);
     }
